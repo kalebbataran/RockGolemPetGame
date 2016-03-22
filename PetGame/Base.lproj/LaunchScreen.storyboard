@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,23 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="initialbg" translatesAutoresizingMaskIntoConstraints="NO" id="zmM-py-I7R">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Kaydot" translatesAutoresizingMaskIntoConstraints="NO" id="EUq-hS-33v">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EUq-hS-33v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="EFH-V9-GwQ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="zmM-py-I7R" secondAttribute="bottom" id="ESi-xZ-PNR"/>
+                            <constraint firstItem="EUq-hS-33v" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fIo-Fo-Bax"/>
+                            <constraint firstItem="zmM-py-I7R" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="k1f-jM-kkP"/>
+                            <constraint firstItem="zmM-py-I7R" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="mr3-fZ-bHZ"/>
+                            <constraint firstAttribute="trailing" secondItem="zmM-py-I7R" secondAttribute="trailing" id="zf6-wC-3yx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +40,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Kaydot" width="341" height="159"/>
+        <image name="initialbg" width="640" height="960"/>
+    </resources>
 </document>

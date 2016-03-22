@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360C70721C8BCC2200B75AE6 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C70711C8BCC2200B75AE6 /* MonsterImg.swift */; };
+		360C70741C8C61A400B75AE6 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C70731C8C61A400B75AE6 /* DragImg.swift */; };
 		3630A24B1C8BABE50056DC12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630A24A1C8BABE50056DC12 /* AppDelegate.swift */; };
 		3630A24D1C8BABE50056DC12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630A24C1C8BABE50056DC12 /* ViewController.swift */; };
 		3630A2501C8BABE50056DC12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3630A24E1C8BABE50056DC12 /* Main.storyboard */; };
@@ -14,6 +16,12 @@
 		3630A2551C8BABE50056DC12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3630A2531C8BABE50056DC12 /* LaunchScreen.storyboard */; };
 		3630A2601C8BABE60056DC12 /* PetGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630A25F1C8BABE60056DC12 /* PetGameTests.swift */; };
 		3630A26B1C8BABE60056DC12 /* PetGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630A26A1C8BABE60056DC12 /* PetGameUITests.swift */; };
+		363992CE1C8D3A63008AAD31 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363992C81C8D3A63008AAD31 /* bite.wav */; };
+		363992CF1C8D3A63008AAD31 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 363992C91C8D3A63008AAD31 /* cave-music.mp3 */; };
+		363992D01C8D3A63008AAD31 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363992CA1C8D3A63008AAD31 /* death.wav */; };
+		363992D11C8D3A63008AAD31 /* happy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363992CB1C8D3A63008AAD31 /* happy.wav */; };
+		363992D21C8D3A63008AAD31 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363992CC1C8D3A63008AAD31 /* heart.wav */; };
+		363992D31C8D3A63008AAD31 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363992CD1C8D3A63008AAD31 /* skull.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		360C70711C8BCC2200B75AE6 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		360C70731C8C61A400B75AE6 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 		3630A2471C8BABE50056DC12 /* PetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3630A24A1C8BABE50056DC12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3630A24C1C8BABE50056DC12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,12 @@
 		3630A2661C8BABE60056DC12 /* PetGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3630A26A1C8BABE60056DC12 /* PetGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetGameUITests.swift; sourceTree = "<group>"; };
 		3630A26C1C8BABE60056DC12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363992C81C8D3A63008AAD31 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		363992C91C8D3A63008AAD31 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		363992CA1C8D3A63008AAD31 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		363992CB1C8D3A63008AAD31 /* happy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = happy.wav; sourceTree = "<group>"; };
+		363992CC1C8D3A63008AAD31 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		363992CD1C8D3A63008AAD31 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +115,18 @@
 			children = (
 				3630A24A1C8BABE50056DC12 /* AppDelegate.swift */,
 				3630A24C1C8BABE50056DC12 /* ViewController.swift */,
+				360C70711C8BCC2200B75AE6 /* MonsterImg.swift */,
+				360C70731C8C61A400B75AE6 /* DragImg.swift */,
 				3630A24E1C8BABE50056DC12 /* Main.storyboard */,
 				3630A2511C8BABE50056DC12 /* Assets.xcassets */,
 				3630A2531C8BABE50056DC12 /* LaunchScreen.storyboard */,
 				3630A2561C8BABE50056DC12 /* Info.plist */,
+				363992C81C8D3A63008AAD31 /* bite.wav */,
+				363992C91C8D3A63008AAD31 /* cave-music.mp3 */,
+				363992CA1C8D3A63008AAD31 /* death.wav */,
+				363992CB1C8D3A63008AAD31 /* happy.wav */,
+				363992CC1C8D3A63008AAD31 /* heart.wav */,
+				363992CD1C8D3A63008AAD31 /* skull.wav */,
 			);
 			path = PetGame;
 			sourceTree = "<group>";
@@ -232,7 +256,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363992CE1C8D3A63008AAD31 /* bite.wav in Resources */,
+				363992D31C8D3A63008AAD31 /* skull.wav in Resources */,
+				363992D21C8D3A63008AAD31 /* heart.wav in Resources */,
+				363992D01C8D3A63008AAD31 /* death.wav in Resources */,
+				363992CF1C8D3A63008AAD31 /* cave-music.mp3 in Resources */,
 				3630A2551C8BABE50056DC12 /* LaunchScreen.storyboard in Resources */,
+				363992D11C8D3A63008AAD31 /* happy.wav in Resources */,
 				3630A2521C8BABE50056DC12 /* Assets.xcassets in Resources */,
 				3630A2501C8BABE50056DC12 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +291,8 @@
 			files = (
 				3630A24D1C8BABE50056DC12 /* ViewController.swift in Sources */,
 				3630A24B1C8BABE50056DC12 /* AppDelegate.swift in Sources */,
+				360C70721C8BCC2200B75AE6 /* MonsterImg.swift in Sources */,
+				360C70741C8C61A400B75AE6 /* DragImg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +517,7 @@
 				3630A2711C8BABE60056DC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3630A2721C8BABE60056DC12 /* Build configuration list for PBXNativeTarget "PetGameTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +526,7 @@
 				3630A2741C8BABE60056DC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3630A2751C8BABE60056DC12 /* Build configuration list for PBXNativeTarget "PetGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +535,7 @@
 				3630A2771C8BABE60056DC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
